@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :paintings
+
+  resources :addresses
+
   resources :users
 
   root :to => "users#index"
