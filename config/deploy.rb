@@ -3,7 +3,7 @@ require "bundler/capistrano"
 server "130.211.251.49", :web, :app, :db, primary: true
 
 set :application, "user"
-set :user, "deployer"
+set :user, "shiva"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
