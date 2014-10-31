@@ -1,4 +1,4 @@
-root = "/home/deployer/apps/user/current"
+root = "/home/shiva/apps/user/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
